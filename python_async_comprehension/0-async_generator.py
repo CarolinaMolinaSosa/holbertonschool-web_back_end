@@ -5,6 +5,7 @@ import asyncio
 from random import uniform
 from typing import Generator
 
+
 async def async_generator() -> Generator[float, None, None]:
     """Generate 10 random floating-point numbers with a 1-second delay between each."""
     for i in range(10):
